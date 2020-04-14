@@ -5,3 +5,5 @@ Keep your windows machine awake
 2. open startup folder (WIN + R then type "shell:startup")
 3. create a shortcut for this binary in the startup folder.
 4. have fun!
+
+Based on code from [keybd_event](https://github.com/micmonay/keybd_event)
