@@ -12,4 +12,6 @@ Keep your windows machine awake
 ## How it works?
 It sends the NULL (0x00) key every 1 minute.
 
+---
+
 Based on code from [keybd_event](https://github.com/micmonay/keybd_event)
