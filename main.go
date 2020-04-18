@@ -1,7 +1,7 @@
 package main
 
 import (
-	"log"
+	"fmt"
 	"syscall"
 	"time"
 )
@@ -19,7 +19,7 @@ func main() {
 	for {
 		err := pressKey(_NULL)
 		if err != nil {
-			log.Fatal(err)
+			fmt.Println(err)
 		}
 		time.Sleep(1 * time.Minute)
 	}
