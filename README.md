@@ -1,5 +1,5 @@
-# winawake
-Keep your windows machine awake
+# 9to5winawake
+Keep your windows machine awake from 9 to 5 (local pc time)
 
 ## Installation
 

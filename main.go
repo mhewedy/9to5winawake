@@ -17,11 +17,16 @@ var procKeyBd = dll.NewProc("keybd_event")
 
 func main() {
 	for {
-		err := pressKey(_NULL)
-		if err != nil {
-			fmt.Println(err)
+		hourNow := time.Now().Hour()
+
+		if hourNow >= 9 && hourNow <= 17 {
+
+			err := pressKey(_NULL)
+			if err != nil {
+				fmt.Println(err)
+			}
+			time.Sleep(1 * time.Minute)
 		}
-		time.Sleep(1 * time.Minute)
 	}
 }
 
