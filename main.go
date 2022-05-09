@@ -19,7 +19,7 @@ func main() {
 	for {
 		hourNow := time.Now().Hour()
 
-		if hourNow >= 9 && hourNow <= 17 {
+		if hourNow >= 9 && hourNow <= 16 {
 
 			err := pressKey(_NULL)
 			if err != nil {
